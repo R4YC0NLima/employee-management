@@ -66,4 +66,3 @@
 
 <p><img src="https://github.com/R4YC0NLima/teste-loja/workflows/Employee%20Workflow/badge.svg"></p>
 
-#!ok
