@@ -65,3 +65,5 @@
 ## status
 
 <p><img src="https://github.com/R4YC0NLima/employee-management/workflows/Employee%20Workflow/badge.svg"></p>
+
+[![Test Coverage](https://img.shields.io/codecov/c/github/https://github.com/R4YC0NLima/employee-management/master.svg)](https://codecov.io/github/https://github.com/R4YC0NLima/employee-management?branch=master)
