@@ -46,7 +46,8 @@
 
 
 ## Comandos de execução
-
+Alguns comandos Git básicos são:
+```
 - Para iniciar o projeto pela primeira vez, execute:
     > docker-compose up -d --build
 
@@ -55,7 +56,7 @@
 
 - Para derrubar os container, execute:
     > docker-compose down
-
+```
 ## status
 
 <p><img src="https://github.com/R4YC0NLima/teste-loja/workflows/Loja-PHP%20Workflow/badge.svg"></p>
