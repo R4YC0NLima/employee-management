@@ -1,6 +1,9 @@
 name: Employee Workflow
 
 on:
+  push:
+    branches:
+      - develop
   pull_request:
     branches:
       - develop
@@ -19,4 +22,5 @@ jobs:
       - uses: ./.github/actions/config-laravel
 
       # Execução dos testes
-      - run: ./vendor/bin/phpunit
+      - run: ./vendor/bin/phpunit --coverage-clover=coverage.xml
+#      - run: ./vendor/bin/phpunit
