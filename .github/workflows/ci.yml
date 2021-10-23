@@ -3,14 +3,13 @@ name: Employee Workflow
 on:
   pull_request:
     branches:
-      - develop
+      - main
 
 jobs:
   build:
     name: Employee Laravel Workflow
     runs-on: ubuntu-latest
     steps:
-      # Esta ação faz o check-out de seu repositório em $GITHUB_WORKSPACE, para que seu fluxo de trabalho possa acessá-lo.
       - uses: actions/checkout@v2
 
       # Instalação do Composer
