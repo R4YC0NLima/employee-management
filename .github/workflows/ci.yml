@@ -1,4 +1,4 @@
-name: Employee-Manager Workflow
+name: Employee Workflow
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Employee Manager Laravel Workflow
+    name: Employee Laravel Workflow
     runs-on: ubuntu-latest
     steps:
       # Esta ação faz o check-out de seu repositório em $GITHUB_WORKSPACE, para que seu fluxo de trabalho possa acessá-lo.
