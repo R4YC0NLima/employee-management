@@ -1,4 +1,4 @@
-name: Employee Manager -PHP Workflow
+name: Employee-Manager - PHP Workflow
 
 on:
   pull_request:
