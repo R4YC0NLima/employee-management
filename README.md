@@ -64,7 +64,6 @@
 ```
 ## status
 
-[![Employee-Manager - PHP Workflow](https://github.com/R4YC0NLima/employee-management/actions/workflows/ci.yml/badge.svg)](https://github.com/R4YC0NLima/employee-management/actions/workflows/ci.yml)
-<p><img src="https://github.com/R4YC0NLima/employee-management/workflows/Employee-PHP%20Workflow/badge.svg"></p>
+<p><img src="https://github.com/R4YC0NLima/teste-loja/workflows/Employee-Manager%20Workflow/badge.svg"></p>
 
 #!ok
