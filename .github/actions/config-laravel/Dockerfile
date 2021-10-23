@@ -1,4 +1,4 @@
-FROM jpaulolxm/php-8-fpm:1.0.0
+FROM php:7.4-cli-alpine
 
 # Configurar o Laravel
 ADD entrypoint.sh /entrypoint.sh
