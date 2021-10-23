@@ -3,7 +3,7 @@ name: Employee Workflow
 on:
   pull_request:
     branches:
-      - main
+      - develop
 
 jobs:
   build:
@@ -12,20 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run composer install
-        run: composer install -n --prefer-dist
-        env:
-          APP_ENV: testing
-
-      - name: Prepare Laravel Application
-        run: |
-          cp .env.example .env
-          php artisan key:generate
-
-      - name: Run tests
-        run: ./vendor/bin/phpunit
-        env:
-          APP_ENV: testing
+      # Instalação do Composer
+      - uses: ./.github/actions/composer
 
       # Instalação do Laravel
       - uses: ./.github/actions/config-laravel
